@@ -7,7 +7,7 @@ import { TodoList } from './components/TodoList';
 import { TodoFilter } from './components/TodoFilter';
 import { TodoModal } from './components/TodoModal';
 import { Loader } from './components/Loader';
-import { getTodos, getUser } from './api';
+import { getTodos } from './api';
 import { Todo } from './types/Todo';
 
 export const App: React.FC = () => {
